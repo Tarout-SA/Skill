@@ -1,0 +1,15 @@
+{
+	"name": "tarout",
+	"displayName": "Tarout",
+	"description": "Deploy and manage apps on Tarout, the Saudi cloud platform (tarout.sa). Ships the deploy playbook and custom-domain skills plus the tarout MCP server (requires the Tarout CLI: npm i -g @tarout/cli).",
+	"version": "1.0.0",
+	"author": {
+		"name": "Tarout",
+		"email": "support@tarout.sa",
+		"url": "https://tarout.sa"
+	},
+	"homepage": "https://tarout.sa/docs/for-ai",
+	"repository": "https://github.com/Tarout-SA/skills",
+	"license": "MIT",
+	"keywords": ["tarout", "deploy", "paas", "saudi-cloud", "hosting", "mcp"]
+}

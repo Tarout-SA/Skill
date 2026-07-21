@@ -1,0 +1,7 @@
+{
+	"mcpServers": {
+		"tarout": {
+			"command": "tarout-mcp"
+		}
+	}
+}

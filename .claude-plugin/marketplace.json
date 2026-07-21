@@ -1,0 +1,17 @@
+{
+	"name": "tarout",
+	"description": "Official Tarout plugin marketplace — skills and MCP server for deploying to the Saudi cloud",
+	"version": "1.0.0",
+	"owner": {
+		"name": "Tarout",
+		"email": "support@tarout.sa",
+		"url": "https://tarout.sa"
+	},
+	"plugins": [
+		{
+			"name": "tarout",
+			"source": "./plugins/tarout",
+			"description": "Deploy and manage apps on Tarout (tarout.sa, Saudi cloud): the zero-approval deploy playbook, custom-domain flow, and the tarout MCP server in one install."
+		}
+	]
+}
