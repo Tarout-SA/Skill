@@ -25,7 +25,7 @@ It reuses your CLI login (`tarout login`, or any deploy — the CLI opens the br
 |------|--------------|
 | `tarout-deploy` skill | The zero-approval deploy playbook: `tarout up --json`, the `needs_input` protocol, fix-and-redeploy on failure, plan upgrades via checkout. |
 | `tarout-domains` skill | Custom-domain flow: add-external → DNS records → verify → link, including root domains via Cloudflare-DNS proxied CNAME. |
-| `tarout` MCP server | 65 tools (apps, deploys, env vars, full database + object-storage control incl. credentials, data browsing, backups, byte transfer, and access keys, domains, billing), including a `call` tool reaching every platform procedure. |
+| `tarout` MCP server | 73 tools (apps, deploys, env vars, scheduled jobs, full database + object-storage control incl. credentials, data browsing, backups, byte transfer, and access keys, domains, billing), including `call`, `list_procedures` and `describe_procedure`, which reach every platform procedure. |
 
 ## Other agents (Codex, Cursor, Windsurf, OpenCode, Copilot)
 
